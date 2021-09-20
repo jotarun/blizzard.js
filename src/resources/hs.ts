@@ -15,7 +15,7 @@ export type CardSearchOptions = {
     | 'warrior'
     | 'neutral'
   collectible?: 0 | 1
-  gameMode?: 'constructed' | 'battlegrounds' | 'arena' | 'duels'
+  gameMode?: 'constructed' | 'battlegrounds' | 'arena' | 'duels' | 'mercenaries'
   health?: number | number[]
   keyword?: string
   manaCost?: number | number[]
@@ -48,7 +48,7 @@ export const cardSearch = (
     | 'warrior'
     | 'neutral'
   collectible?: 0 | 1 | '0,1'
-  gameMode?: 'constructed' | 'battlegrounds' | 'arena' | 'duels'
+  gameMode?: 'constructed' | 'battlegrounds' | 'arena' | 'duels' | 'mercenaries'
   health?: number | string
   keyword?: string
   manaCost?: number | string
