@@ -92,6 +92,9 @@ export type CardOptions = { id: number | string }
 export const card = (args: CardOptions): Resource => {
   return {
     path: `hearthstone/cards/${encodeURIComponent(args.id)}`,
+     params: {
+      gameMode: args.tier === undefined ? args.gameMode : 'battlegrounds'
+    }
   }
 }
 
