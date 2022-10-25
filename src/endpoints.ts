@@ -32,7 +32,7 @@ const endpoints: Endpoints = {
   us: {
     hostname: 'https://us.api.blizzard.com',
     defaultLocale: 'en_US',
-    locales: ['en_US', 'es_MX', 'pt_BR', 'multi'],
+    locales: ['en_US', 'es_MX', 'pt_BR', 'zh_TW','multi'],
   },
   eu: {
     hostname: 'https://eu.api.blizzard.com',
